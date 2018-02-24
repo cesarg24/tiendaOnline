@@ -37,6 +37,7 @@ public class UsuarioController {
 		super();
 		this.usuarioServices = usuarioServices;
 	}
+/* Agrego este comentario. Metodo que permite guardar un usuario*/
 	
 	@PostMapping(produces="application/json")
 	public Usuario guardar(@RequestBody @Validated Usuario usuario) {
